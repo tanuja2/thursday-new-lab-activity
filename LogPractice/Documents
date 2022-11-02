@@ -1,0 +1,10 @@
+2022-11-02 21:13:59,158 com.LogPractice.TestLog main from info 
+2022-11-02 21:13:59,161 com.LogPractice.TestLog main from debug 
+2022-11-02 21:13:59,161 com.LogPractice.TestLog main from fatal 
+2022-11-02 21:13:59,161 com.LogPractice.TestLog main from error 
+2022-11-02 21:13:59,161 com.LogPractice.TestLog main from warn 
+2022-11-02 21:29:44,820 com.LogPractice.TestLog main from info 
+2022-11-02 21:29:44,824 com.LogPractice.TestLog main from debug 
+2022-11-02 21:29:44,824 com.LogPractice.TestLog main from fatal 
+2022-11-02 21:29:44,824 com.LogPractice.TestLog main from error 
+2022-11-02 21:29:44,824 com.LogPractice.TestLog main from warn 
