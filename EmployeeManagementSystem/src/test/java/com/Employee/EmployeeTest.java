@@ -3,10 +3,10 @@ package com.Employee;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
 
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Test;
+
 
 class EmployeeTest {
 	@AfterEach

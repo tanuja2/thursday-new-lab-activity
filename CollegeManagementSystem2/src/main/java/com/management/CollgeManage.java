@@ -1,4 +1,4 @@
-package com.college;
+package com.management;
 
 import java.util.Scanner;
 
@@ -6,11 +6,10 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-
-public class CollegeMngt {
-	private int id;
-	private String course;
-	private String Tname;
+public class CollgeManage {
+	private int College_id;
+	private String cource;
+	private int fees;
 
 	
 		public static void main(String[] args) {
@@ -34,14 +33,14 @@ public class CollegeMngt {
 					College c=new College();
 					System.out.println("College id:");
 					int id=input.nextInt();
-					c.setId(id);			
+				    c.setCollege_Id(id);	
 					System.out.println("Course Name");
 					String course=input.next();
-					c.setCourse(course);
+					c.setCource(course);;
 					
-					System.out.println("Teacher Name");
-					String name=input.next();
-					c.setTname(name);
+					System.out.println("College fees");
+					int fees=input.nextInt();
+					c.setFees(fees);;
 					
 					
 				    
@@ -70,15 +69,15 @@ public class CollegeMngt {
 				    	input.nextLine();
 				    	System.out.println("College id:");
 				    	id=input.nextInt();
-				    	c3.setId(id);
+				    	c3.setCollege_Id(id);;
 				    	
 				    	System.out.println("Course Name:");
 				    	course=input.next();
-				    	c3.setCourse(course);
+				    	c3.setCource(course);;
 				    	
-				    	System.out.println("Teacher name");
-				    	 name=input.next();
-				    	c3.setTname(name);
+				    	System.out.println("fees");
+				    	 fees=input.nextInt();
+				    	c3.setFees(fees);;
 				    	
 				    	
 				        Transaction t2=session.beginTransaction();

@@ -1,4 +1,4 @@
-package com.college;
+package com.management;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
