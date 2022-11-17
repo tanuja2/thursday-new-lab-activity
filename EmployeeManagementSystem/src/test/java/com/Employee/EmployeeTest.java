@@ -15,7 +15,7 @@ class EmployeeTest {
 
 	@Test
 	void test() {
-		System.out.println("salary increased by 10%");
+		System.out.println("customer exist");
 	}
 
 
